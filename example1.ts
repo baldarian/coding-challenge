@@ -13,7 +13,7 @@ const Component: FC<Props> = ({ items }) => {
     <div>
       {items.map((item, index) => 
         <Item
-          // It looks fine untill we introduce reording functionality
+          // It looks fine until we introduce reording functionality
           // Either way, passing `id` here is much better
           key={index}
           item={item}
